@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane_login" prefHeight="400.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tech.revolicise.crms_dev.LoginView_Controller">
+   <stylesheets>
+      <URL value="@login-view.css" />
+   </stylesheets>
+   <Label fx:id="label_title" layoutX="200.0" layoutY="25.0" styleClass="label-title" text="计算机机房管理系统">
+      <font>
+         <Font size="23.0" />
+      </font>
+   </Label>
+   <TextField fx:id="textField_user" layoutX="265.0" layoutY="110.0" prefHeight="47.0" prefWidth="197.0" />
+   <PasswordField fx:id="passwordField_password" layoutX="265.0" layoutY="185.0" prefHeight="7.0" prefWidth="197.0" />
+   <Label layoutX="144.0" layoutY="110.0" styleClass="label-tip" text="用户名" />
+   <Label layoutX="154.0" layoutY="184.0" styleClass="label-tip" text="密码" />
+   <Button fx:id="button_connect" layoutX="152.0" layoutY="293.0" mnemonicParsing="false" text="连接数据库" />
+   <Button fx:id="button_login" layoutX="406.0" layoutY="293.0" mnemonicParsing="false" text="登录" />
+   <Circle fx:id="circle_flag" fill="#ff1f1f" layoutX="575.0" layoutY="25.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+   <Label fx:id="label_isConnected" layoutX="451.0" layoutY="5.0" styleClass="label-isConnected" text="数据库未连接">
+      <font>
+         <Font name="System Bold Italic" size="8.0" />
+      </font>
+   </Label>
+</AnchorPane>

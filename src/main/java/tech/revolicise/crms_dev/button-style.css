@@ -1,0 +1,17 @@
+
+.button {
+    -fx-background-color: #B3E5FC; /* 淡蓝色背景 */
+    -fx-background-radius: 20; /* 圆润边角 */
+    -fx-padding: 10px 20px; /* 按钮内边距 */
+    -fx-font-size: 16px; /* 字体大小 */
+    -fx-text-fill: #FFFFFF; /* 字体颜色为白色 */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 0); /* 添加阴影效果 */
+}
+
+.button:hover {
+    -fx-background-color: #81D4FA; /* 鼠标悬停时的背景色 */
+}
+
+.button:pressed {
+    -fx-background-color: #4FC3F7; /* 按钮按下时的背景色 */
+}

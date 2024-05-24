@@ -1,0 +1,122 @@
+/* 设置标题样式：简约美观 */
+.title {
+    -fx-font-size: 24px; /* 设置字体大小 */
+    -fx-text-fill: #333; /* 设置字体颜色 */
+    -fx-padding: 10px; /* 设置内边距 */
+    -fx-margin: 10px; /* 设置外边距 */
+    -fx-border-color: #333; /* 设置边框颜色 */
+    -fx-border-width: 2px; /* 设置边框宽度 */
+    -fx-border-radius: 5px; /* 设置边框圆角 */
+    -fx-font-weight: bold; /* 设置字体粗细 */
+}
+
+/* 设置按钮样式：简约美观 */
+.button {
+    -fx-background-color: #333; /* 设置背景颜色 */
+    -fx-border-color: #333; /* 设置边框颜色 */
+    -fx-border-width: 2px; /* 设置边框宽度 */
+    -fx-border-radius: 5px; /* 设置边框圆角 */
+    -fx-padding: 10px; /* 设置内边距 */
+    -fx-margin: 10px; /* 设置外边距 */
+    -fx-font-size: 16px; /* 设置字体大小 */
+    -fx-text-fill: #f5f5f5; /* 设置字体颜色 */
+    -fx-font-weight: bold; /* 设置字体粗细 */
+    -fx-cursor: hand; /* 设置鼠标样式 */
+    -fx-background-radius: 5px; /* 设置背景圆角 */
+    -fx-background-insets: 0; /* 设置背景内边距 */
+    -fx-text-fill: #f5f5f5; /* 设置字体颜色 */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1); /* 设置阴影 */
+}
+/* 设置按钮样式：点击后变暗 */
+.button:hover {
+    -fx-background-color: #3e8e41; /* 设置背景颜色 */
+}
+/* 设置输入框样式：简约美观 */
+.text-field {
+    -fx-background-color: #f5f5f5; /* 设置背景颜色 */
+    -fx-border-color: #333; /* 设置边框颜色 */
+    -fx-border-width: 2px; /* 设置边框宽度 */
+    -fx-border-radius: 5px; /* 设置边框圆角 */
+    -fx-padding: 10px; /* 设置内边距 */
+    -fx-margin: 10px; /* 设置外边距 */
+    -fx-font-size: 16px; /* 设置字体大小 */
+    -fx-text-fill: #333; /* 设置字体颜色 */
+    -fx-font-weight: bold; /* 设置字体粗细 */
+}
+/* 设置输入框样式：鼠标悬停时背景颜色变暗 */
+.text-field:hover {
+    -fx-background-color: #e0e0e0; /* 设置背景颜色 */
+}
+
+/* 设置普通标签样式：简约美观，风格一致 */
+.label {
+    -fx-font-size: 16px; /* 设置字体大小 */
+    -fx-text-fill: #333; /* 设置字体颜色 */
+    -fx-padding: 10px; /* 设置内边距 */
+    -fx-margin: 10px; /* 设置外边距 */
+    -fx-font-weight: bold; /* 设置字体粗细 */
+    /* 设置阴影 */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
+
+/* 设置连接状态标签样式：简约美观，风格一致 */
+.label-isConnected {
+    -fx-font-size: 14px; /* 设置字体大小 */
+    -fx-text-fill: #333; /* 设置字体颜色 */
+    -fx-padding: 10px; /* 设置内边距 */
+    -fx-margin: 10px; /* 设置外边距 */
+    -fx-font-weight: bold; /* 设置字体粗细 */
+}
+
+.label-isConnected {
+    -fx-font-size: 14px; /* 设置字体大小 */
+    -fx-text-fill: #333; /* 设置字体颜色 */
+    -fx-padding: 10px; /* 设置内边距 */
+    -fx-margin: 10px; /* 设置外边距 */
+    -fx-font-weight: bold; /* 设置字体粗细 */
+}
+
+/* AnchorPane样式：简约美观，风格一致 */
+.anchor-pane {
+    -fx-background-color: #f5f5f5; /* 设置背景颜色 */
+    -fx-border-color: #333; /* 设置边框颜色 */
+    -fx-border-width: 2px; /* 设置边框宽度 */
+    -fx-border-radius: 5px; /* 设置边框圆角 */
+    -fx-padding: 10px; /* 设置内边距 */
+    -fx-margin: 10px; /* 设置外边距 */
+}
+
+/* 表格样式：简约美观，风格一致 */
+.table-view {
+    -fx-font-size: 16px; /* 设置字体大小 */
+    -fx-text-fill: #333; /* 设置字体颜色 */
+    -fx-padding: 10px; /* 设置内边距 */
+    -fx-margin: 10px; /* 设置外边距 */
+    -fx-border-color: #333; /* 设置边框颜色 */
+    -fx-border-width: 2px; /* 设置边框宽度 */
+    -fx-border-radius: 5px; /* 设置边框圆角 */
+    -fx-background-color: #f5f5f5; /* 设置背景颜色 */
+    -fx-table-cell-border-color: #333; /* 设置单元格边框颜色 */
+    -fx-table-header-border-color: #333; /* 设置表头边框颜色 */
+    -fx-table-header-background-color: #f5f5f5; /* 设置表头背景颜色 */
+    -fx-table-row-cell-border-color: #333; /* 设置行单元格边框颜色 */
+    -fx-table-row-background-color: #f5f5f5; /* 设置行背景颜色 */
+    -fx-table-row-hover-color: #e0e0e0; /* 设置行悬停颜色 */
+    -fx-table-cell-border-width: 1px; /* 设置单元格边框宽度 */
+    -fx-table-header-border-width: 1px; /* 设置表头边框宽度 */
+    -fx-table-row-cell-border-width: 1px; /* 设置行单元格边框宽度 */
+    -fx-table-header-background-radius: 5px; /* 设置表头背景圆角 */
+    -fx-table-row-background-radius: 5px; /* 设置行背景圆角 */
+    -fx-table-header-alignment: CENTER; /* 设置表头对齐方式 */
+    -fx-table-cell-alignment: CENTER; /* 设置单元格对齐方式 */
+}
+
+/* 表格行选中样式：选中行背景颜色 */
+.table-view:row-selection {
+    -fx-background-color: #e0e0e0; /* 设置背景颜色 */
+}
+
+/* 表格行选中样式：选中行文字颜色 */
+.table-view:row-selection .table-cell {
+    -fx-text-fill: #333; /* 设置字体颜色 */
+}

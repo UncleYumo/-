@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="700" prefWidth="1200" stylesheets="@login-view.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tech.revolicise.crms_dev.ComputerRentView_Controller">
+    <Label layoutX="490.0" layoutY="14.0" text="电脑租借界面">
+        <font>
+          <Font name="System Bold Italic" size="16.0" />
+        </font>
+    </Label>
+    <TableView fx:id="tableView_device" layoutX="45.0" layoutY="71.0" prefHeight="371.0" prefWidth="469.0">
+      <columns>
+          <TableColumn fx:id="column_deviceID" prefWidth="72.33334636688232" text="序号" />
+          <TableColumn fx:id="column_deviceType" prefWidth="117.66666412353516" text="类型" />
+          <TableColumn fx:id="column_location" prefWidth="148.3333740234375" text="位置" />
+          <TableColumn fx:id="column_status" prefWidth="128.9999542236328" text="状态" />
+      </columns>
+    </TableView>
+   <TextArea fx:id="textArea_operationInfo" layoutX="573.0" layoutY="313.0" prefHeight="343.0" prefWidth="562.0" />
+   <Button fx:id="button_rent" layoutX="909.0" layoutY="151.0" mnemonicParsing="false" onAction="#onAction_rentDevice" prefHeight="46.0" prefWidth="102.0" text="租借" />
+   <TextField fx:id="textField_deviceID" layoutX="659.0" layoutY="151.0" prefHeight="46.0" prefWidth="212.0" promptText="电脑序号" />
+   <Button fx:id="button_return" layoutX="1041.0" layoutY="151.0" mnemonicParsing="false" onAction="#onAction_returnDevice" prefHeight="46.0" prefWidth="102.0" text="归还" />
+   <Label layoutX="589.0" layoutY="150.0" text="序号" />
+   <TextArea fx:id="textArea_currentUserInfo" layoutX="659.0" layoutY="71.0" prefHeight="28.0" prefWidth="489.0" />
+   <Label layoutX="549.0" layoutY="66.0" text="当前用户" />
+   <Button fx:id="button_refresh" layoutX="1043.0" layoutY="225.0" mnemonicParsing="false" onAction="#onAction_refreshTable" prefHeight="46.0" prefWidth="100.0" text="刷新数据" />
+   <Label layoutX="569.0" layoutY="265.0" text="操作日志" />
+   <TextArea fx:id="textArea_myRecord" layoutX="45.0" layoutY="500.0" prefHeight="156.0" prefWidth="469.0" />
+   <Button fx:id="button_myRecord" layoutX="909.0" layoutY="225.0" mnemonicParsing="false" onAction="#onAction_getMyRecord" prefHeight="46.0" prefWidth="102.0" text="我的记录" />
+   <Label layoutX="45.0" layoutY="452.0" text="我的记录" />
+   <Button fx:id="button_clearLog" layoutX="769.0" layoutY="225.0" mnemonicParsing="false" onAction="#onAction_ClearLog" prefHeight="46.0" prefWidth="102.0" text="清除日志" />
+</AnchorPane>
