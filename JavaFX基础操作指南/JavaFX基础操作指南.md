@@ -1,4 +1,4 @@
-# JavaFX常用操作指南
+# JavaFX基础操作指南
 
 > @author uncle_yumo
 >
