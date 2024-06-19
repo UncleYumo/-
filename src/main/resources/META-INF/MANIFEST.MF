@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: tech.revolicise.crms_dev.MainApplication
+

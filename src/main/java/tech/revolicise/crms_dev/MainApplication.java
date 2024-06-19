@@ -24,6 +24,7 @@ public class MainApplication extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
         System.out.println("start方法调用成功");
+        System.out.println(System.getProperty("java.class.path")); // 打印类路径
 
         // 加载登录界面
         FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("login-view.fxml"));
@@ -189,6 +190,10 @@ public class MainApplication extends Application {
                 return;
             }
         });
+    }
+
+    public static void main(String[] args) {
+        launch(); // 启动JavaFX程序
     }
 
     public void init() {

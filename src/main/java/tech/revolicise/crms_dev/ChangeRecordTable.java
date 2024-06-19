@@ -114,12 +114,11 @@ public class ChangeRecordTable {
             amount = "null";
         }
         return "ChangeRecordTable{" +
-                "recordID='" + recordid + '\'' +
-                ", userID='" + userid + '\'' +
-                ", deviceID='" + deviceid + '\'' +
-                ", startTime='" + starttime + '\'' +
-                ", endTime='" + endtime + '\'' +
-                ", amount='" + amount + '\'' +
-                '}';
+                "记录ID：'" + recordid + '\'' +
+                ", 用户ID：'" + userid + '\'' +
+                ", 设备ID：'" + deviceid + '\'' +
+                ", 起租时间：'" + starttime + '\'' +
+                ", 归还时间：'" + endtime + '\'' +
+                ", 租金：'" + amount ;
     }
 }

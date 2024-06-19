@@ -21,7 +21,7 @@ public class MySQL_ConnUtils {
     private MySQL_ConnUtils() { // 构造函数私有化
         this.user = "test";
         this.password = "_Test141760";
-        this.database_url = "47.120.34.243";
+        this.database_url = "139.224.195.43";
         this.database_name = "crms_database";
     }
 

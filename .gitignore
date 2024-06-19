@@ -3,3 +3,5 @@ lib
 *.iws
 *.iml
 *.ipr
+target/
+effective-pom

@@ -97,10 +97,6 @@ public class SqlUtil {
                     return new User(userID, userName, password, role);
                 } else {
                     System.out.println("用户名不存在！");
-                    Alert alert = new Alert(Alert.AlertType.ERROR);
-                    alert.setTitle("错误");
-                    alert.setHeaderText("用户名不存在！");
-                    alert.showAndWait();
                     return null;
                 }
             } else {
